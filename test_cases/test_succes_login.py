@@ -2,9 +2,9 @@ import unittest
 
 from selenium import webdriver
 
-from login_page import LoginPage
-from login_successfully import LoggedInSuccesfully
-from page_locators import LoginPageData, LoginPageLocators
+from pages.login_page import LoginPage
+from pages.login_successfully import LoggedInSuccesfully
+from pages.page_locators import LoginPageData, LoginPageLocators
 
 
 class TestPositiveLogin(unittest.TestCase):

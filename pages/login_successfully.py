@@ -1,5 +1,5 @@
-from base_page import BasePage
-from page_locators import LoginPageLocators, LoginPageData
+from pages.base_page import BasePage
+from pages.page_locators import LoginPageLocators, LoginPageData
 
 
 class LoggedInSuccesfully(BasePage, LoginPageData, LoginPageLocators):

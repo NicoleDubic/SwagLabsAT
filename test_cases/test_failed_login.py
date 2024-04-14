@@ -2,9 +2,9 @@ import unittest
 
 from selenium import webdriver
 
-from login_failed import LoginFailed
-from login_page import LoginPage
-from page_locators import LoginPageData
+from pages.login_failed import LoginFailed
+from pages.login_page import LoginPage
+from pages.page_locators import LoginPageData
 
 
 class TestFailedLogin (unittest.TestCase):

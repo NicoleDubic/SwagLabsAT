@@ -2,11 +2,9 @@ import time
 import unittest
 
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 
-from login_page import LoginPage
-from login_successfully import LoggedInSuccesfully
-from page_locators import LoginPageData
+from pages.login_page import LoginPage
+from pages.page_locators import LoginPageData
 
 
 class TestLoginPage(unittest.TestCase):

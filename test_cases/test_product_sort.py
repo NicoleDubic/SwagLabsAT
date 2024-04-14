@@ -2,9 +2,9 @@ import time
 import unittest
 from selenium import webdriver
 
-from inventory_page import Inventory_Page
-from login_page import LoginPage
-from login_successfully import LoggedInSuccesfully
+from pages.inventory_page import Inventory_Page
+from pages.login_page import LoginPage
+from pages.login_successfully import LoggedInSuccesfully
 
 
 

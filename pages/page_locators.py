@@ -35,7 +35,7 @@ class InventoryPageLocators:
     items_titles = "inventory_item_name"
     items_prices = "inventory_item_price"
     inventory_item_button = "//div[@class='inventory_item']//button"
-    select_product_sort_container = "//select[@data-test='product_sort_container']"
+    select_product_sort_container = "//*[@id='header_container']/div[2]/div/span/select"
     get_product_sort_container = (By.XPATH, "//select[@data-test='product_sort_container']")
     burger_item_button = LoginPageLocators.burger_menu_button
     sidebar_button = "reset_sidebar_link"

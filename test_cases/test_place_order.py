@@ -2,11 +2,11 @@ import random
 import time
 import unittest
 from selenium import webdriver
-from inventory_page import Inventory_Page
-from login_page import LoginPage
-from login_successfully import LoggedInSuccesfully
-from page_locators import PlaceOrderPageData
-from place_order_page import Place_Order_Page
+from pages.inventory_page import Inventory_Page
+from pages.login_page import LoginPage
+from pages.login_successfully import LoggedInSuccesfully
+from pages.page_locators import PlaceOrderPageData
+from pages.place_order_page import Place_Order_Page
 
 
 class Test_Place_Order(unittest.TestCase):

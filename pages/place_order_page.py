@@ -1,7 +1,7 @@
 import re
 
-from base_page import BasePage
-from page_locators import PlaceOrderPageLocators
+from pages.base_page import BasePage
+from pages.page_locators import PlaceOrderPageLocators
 
 
 class Place_Order_Page(BasePage):
